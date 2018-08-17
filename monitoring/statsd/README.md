@@ -31,6 +31,8 @@ You'll want to specify the following in order to connect to StatsD:
 2. `Url` - http://localhost:8080
 3. `Access` - direct.
 
+![StatsD data source on Grafana](images/statsd-data-source.png)
+
 Then click on **Save &amp; Test**.
 
 Once that's done, you'll be able to add any metrics collected by StatsD to your Grafana dashboards.
