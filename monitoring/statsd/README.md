@@ -24,3 +24,13 @@ Once the containers are up, login to Grafana using the following credentials (th
 Once you've logged in, please click on **Add data source** so we can begin charting metrics recorded by StatsD.
 
 ![The Grafana homescreen - need to click on 'Add data source'](images/grafana-add-datasource.png)
+
+You'll want to specify the following in order to connect to StatsD:
+
+1. `Type` - Graphite;
+2. `Url` - http://localhost:8080
+3. `Access` - direct.
+
+Then click on **Save &amp; Test**.
+
+Once that's done, you'll be able to add any metrics collected by StatsD to your Grafana dashboards.

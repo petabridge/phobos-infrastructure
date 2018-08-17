@@ -16,3 +16,5 @@ These Docker files are __not intended for production use__. They are meant for e
 Phobos is a commercial product and [its end-user license agreement can be found here](https://phobos.petabridge.com/articles/setup/license.html).
 
 The sources in this repository, however, is open source and is [licensed under the terms of Apache 2.0](LICENSE).
+
+This library is maintained by [Petabridge](https://petabridge.com/)®. Copyright 2015-2018.
