@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  graphite:
+    image: graphiteapp/graphite-statsd
+    container_name: graphite
+    restart: always
+    ports:
+        - "8080:80"
+        - "8125:8125/udp"
+        - "8126:8126"
+        - "2003:2003"
+        - "2004:2004"
+
+  grafana:
+    image: grafana/grafana
+    restart: always
+    ports:
+        - "3000:3000"
+    links:
+        - graphite
+    environment:
+        - GF_SECURITY_ADMIN_PASSWORD=password
