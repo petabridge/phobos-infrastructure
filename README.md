@@ -1,6 +1,6 @@
-# Phobos Third Party Integration Infrastructure
+# Phobos® Third Party Integration Infrastructure
 
-![Phobos™ logo](phobos_logo.png)
+![Phobos® logo](phobos_logo.png)
 
 This repository contains sets of [`docker-compose`](https://docs.docker.com/compose/overview/) files used to help [Phobos](https://phobos.petabridge.com/) users evaluate the [third party monitoring and tracing integrations supported by Phobos](https://phobos.petabridge.com/articles/integrations.html).
 
