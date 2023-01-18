@@ -1,5 +1,7 @@
 # Phobos® Third Party Integration Infrastructure
 
+## THIS PROJECT IS NOW ARCHIVED AND NOT REALLY RELEVANT ANYMORE IN THE ERA OF OPENTELMETRY AND [PHOBOS 2+](https://phobos.petabridge.com/articles/releases/whats-new-in-phobos-2.0.0.html)
+
 ![Phobos® logo](phobos_logo.png)
 
 This repository contains sets of [`docker-compose`](https://docs.docker.com/compose/overview/) files used to help [Phobos](https://phobos.petabridge.com/) users evaluate the [third party monitoring and tracing integrations supported by Phobos](https://phobos.petabridge.com/articles/integrations.html).
